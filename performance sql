@@ -1,0 +1,205 @@
+# Sales Performance Analysis Using MySQL
+
+## 📊 Project Overview
+
+This project is an end-to-end sales data analysis project developed using MySQL and MySQL Workbench.
+
+The project analyzes a dataset containing 20,000 sales transactions to demonstrate SQL data cleaning, data validation, KPI reporting, sales performance analysis, product analysis, customer analysis, regional analysis, and business reporting.
+
+The objective is to transform raw sales data into structured information that can support business decision-making.
+
+---
+
+## 🎯 Project Objectives
+
+The main objectives of this project were to:
+
+- Clean and validate the sales dataset
+- Analyze overall business performance
+- Calculate key sales and profitability KPIs
+- Identify sales trends over time
+- Identify top-performing products and categories
+- Analyze customer segments
+- Evaluate regional performance
+- Analyze sales channels and payment methods
+- Examine discounts and their relationship with profitability
+- Generate business insights and recommendations
+
+---
+
+## 🛠️ Tools Used
+
+- MySQL
+- MySQL Workbench
+- SQL
+- Excel
+- GitHub
+
+---
+
+## 📁 Dataset
+
+The dataset contains 20,000 sales transactions.
+
+Key fields include:
+
+- Order ID
+- Order Date
+- Product
+- Category
+- Customer Segment
+- Region
+- Sales Channel
+- Payment Method
+- Quantity
+- Revenue
+- Cost
+- Profit
+- Discount
+
+---
+
+## 🔄 Project Workflow
+
+### 1. Database Setup
+
+Created the MySQL database and imported the sales dataset.
+
+### 2. Data Cleaning
+
+Cleaned and prepared the raw dataset for analysis.
+
+### 3. Data Quality
+
+Checked the dataset for missing values, duplicate records and invalid data.
+
+### 4. KPI Analysis
+
+Calculated key business metrics including:
+
+- Total Revenue
+- Total Profit
+- Total Orders
+- Units Sold
+- Average Order Value
+- Profit Margin
+
+### 5. Sales Trend Analysis
+
+Analyzed revenue, profit, orders and units sold across different years and months.
+
+### 6. Product & Category Analysis
+
+Evaluated:
+
+- Revenue by category
+- Profit by category
+- Top products
+- Product sales volume
+- Product profitability
+- Category contribution
+
+### 7. Customer & Regional Analysis
+
+Analyzed customer segments and regional sales performance.
+
+### 8. Sales Channel & Payment Analysis
+
+Compared sales channels and payment methods based on revenue, orders and profitability.
+
+### 9. Customer & Discount Analysis
+
+Examined customer value, average order value and discount patterns.
+
+---
+
+## 📈 Key Business Insights
+
+### Revenue Performance
+
+The business generated approximately ₦34.16M in total revenue from 10,000 analyzed orders.
+
+### Profitability
+
+The business generated approximately ₦10.74M in profit, representing an overall profit margin of approximately 31.43%.
+
+### Product Performance
+
+Electronics was the strongest-performing category, generating approximately ₦13.88M in revenue and ₦4.34M in profit.
+
+### Top Product
+
+Laptop was the highest-revenue product, generating approximately ₦3.02M in revenue and ₦936.85K in profit.
+
+### Sales Trends
+
+Revenue declined in 2024 before recovering in 2025, while profitability remained relatively stable.
+
+---
+
+## 💡 Business Recommendations
+
+Based on the analysis, the business should:
+
+1. Prioritize high-performing categories such as Electronics and Home Appliances.
+
+2. Maintain inventory availability for high-performing products.
+
+3. Use cross-selling and upselling strategies to increase average order value.
+
+4. Investigate declining order volume and develop customer retention strategies.
+
+5. Use historical sales patterns to improve inventory and demand forecasting.
+
+6. Review discount strategies to ensure that promotions generate sufficient additional sales to justify potential reductions in profit margins.
+
+7. Improve the performance of high-margin products with relatively low sales through targeted marketing.
+
+---
+
+## 🧠 SQL Skills Demonstrated
+
+This project demonstrates practical knowledge of:
+
+- SELECT
+- WHERE
+- GROUP BY
+- ORDER BY
+- Aggregate Functions
+- CASE Statements
+- Subqueries
+- Common Table Expressions (CTEs)
+- Window Functions
+- RANK()
+- PARTITION BY
+- Data Cleaning
+- Data Validation
+- KPI Calculation
+- Business Analysis
+
+---
+
+## 📂 Repository Structure
+
+```text
+sales-performance-analysis-mysql/
+
+├── Dataset/
+│   └── sales_data_clean.csv
+│
+├── SQL/
+│   ├── 01_Database_Setup.sql
+│   ├── 02_Data_Cleaning.sql
+│   ├── 03_Data_Quality.sql
+│   ├── 04_KPI_Analysis.sql
+│   ├── 05_Sales_Trend_Analysis.sql
+│   ├── 06_Product_Category_Analysis.sql
+│   ├── 07_Customer_Regional_Analysis.sql
+│   ├── 08_Sales_Channel_Payment_Analysis.sql
+│   └── 09_Advanced_Customer_Discount_Analysis.sql
+│
+├── Results/
+│
+├── Documentation/
+│
+└── README.md
